@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center_horizontal"
+        android:elevation="10dp"
+        android:gravity="center"
+        android:text="Shadow" />
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/shadow"
+        android:elevation="10dp"
+        android:gravity="center"
+        android:text="Hello Shadow" />
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/drop_shadow"
+        android:elevation="10dp"
+        android:gravity="center"
+        android:text="Drop Shadow" />
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/btn_shadow_bg"
+        android:elevation="10dp"
+        android:gravity="center"
+        android:text="Red Shadow" />
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/shadow_gray_bg"
+        android:elevation="10dp"
+        android:gravity="center"
+        android:text="Red Shadow" />
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/round_shadow_bg"
+        android:elevation="10dp"
+        android:gravity="center"
+        android:text="Red Shadow" />
+
+</LinearLayout>
